@@ -1,0 +1,25 @@
+set number    
+syntax on
+set norelativenumber
+map R :source $MYVIMRC<CR>
+set cursorline
+set wrap
+set showcmd
+set wildmenu
+set hlsearch
+set incsearch
+exec "nohlsearch"
+set ignorecase
+set smartcase
+
+
+
+
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+
+call plug#end()
+
+let g:SnazzyTransparent = 1
+color snazzy
