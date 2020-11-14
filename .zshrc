@@ -108,3 +108,4 @@ source $ZSH/oh-my-zsh.sh
 alias e=exit
 alias ra=ranger
 alias s=screenfetch
+alias lg=lazygit
