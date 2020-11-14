@@ -64,9 +64,12 @@ static const char *trayer[] = { "/home/razer/scripts/trayer.sh", NULL };
 static const char *upvol[]   = { "/home/razer/scripts/vol-up.sh",  NULL };
 static const char *downvol[] = { "/home/razer/scripts/vol-down.sh",  NULL };
 static const char *mutevol[] = { "/home/razer/scripts/vol-toggle.sh",  NULL };
+static const char scratchpadname[] = "scratchpad";
+static const char *scratchpadcmd[] = { scratchpadname,"80x24", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
+	{ MODKEY,                       XK_a,      togglescratch,  {.v = scratchpadcmd } },
 	{ MODKEY,                       XK_r,      spawn,          {.v = ranger } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = trayer } },
 	{ MODKEY|ShiftMask,             XK_i,      spawn,          {.v = upvol } },
