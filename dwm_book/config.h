@@ -69,9 +69,9 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_r,      spawn,          {.v = ranger } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = trayer } },
-	{ MODKEY|ShiftMask,                       XK_i,      spawn,          {.v = upvol } },
-	{ MODKEY|ShiftMask,                       XK_o,      spawn,          {.v = downvol } },
-	{ MODKEY|ShiftMask,                       XK_p,      spawn,          {.v = mutevol } },
+	{ MODKEY|ShiftMask,             XK_i,      spawn,          {.v = upvol } },
+	{ MODKEY|ShiftMask,             XK_o,      spawn,          {.v = downvol } },
+	{ MODKEY|ShiftMask,             XK_p,      spawn,          {.v = mutevol } },
 	{ MODKEY,                       XK_c,      spawn,          {.v = chrome } },
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
