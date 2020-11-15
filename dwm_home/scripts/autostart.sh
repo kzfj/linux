@@ -8,10 +8,11 @@
 picom -b
 nitrogen --restore
 #nm-applet &
-#xfce4-power-manager &
+xfce4-power-manager &
 #kdeconnect-indicator &
 fcitx &
-#xfce4-volumed-pulse &
+xfce4-volumed-pulse &
 #/bin/bash ~/scripts/run-mailsync.sh &
 #/bin/bash ~/scripts/setxmodmap-colemak.sh &
+trayer --edge top --align right --width 5 --height 16 --transparent true --tint 0x88888888
 ~/scripts/autostart_wait.sh &
