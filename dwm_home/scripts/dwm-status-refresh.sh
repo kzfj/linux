@@ -53,8 +53,8 @@ print_mem(){
 }
 
 print_temp(){
-	test -f /sys/class/thermal/thermal_zone1/temp || return 0
-	echo $(head -c 2 /sys/class/thermal/thermal_zone1/temp)C
+	test -f /sys/class/thermal/thermal_zone2/temp || return 0
+	echo $(head -c 2 /sys/class/thermal/thermal_zone2/temp)C
 }
 
 #!/bin/bash
