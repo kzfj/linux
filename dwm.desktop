@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=dwm
-Comment=Dynamic Window Manager
-Exec=/usr/local/bin/dwm
-TryExec=/usr/local/bin/dwm
-Icon=/home/razer/dwm/dwm.png
-Type=Application
-
