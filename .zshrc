@@ -105,7 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-alias e=exit
 alias ra=ranger
 alias s=screenfetch
 alias lg=lazygit
