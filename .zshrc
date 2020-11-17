@@ -105,6 +105,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+#终端让vim显示颜色
+export TERM=xterm-color
+
+
+#终端快捷键
 alias ra=ranger
 alias s=screenfetch
 alias lg=lazygit
