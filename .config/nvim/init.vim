@@ -69,7 +69,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'connorholyday/vim-snazzy'
 
 "you compldte me"
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 
 "nerd tree"
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }

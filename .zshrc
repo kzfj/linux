@@ -114,3 +114,4 @@ alias ra=ranger
 alias s=screenfetch
 alias lg=lazygit
 alias gc=git-cola
+alias vim=nvim
