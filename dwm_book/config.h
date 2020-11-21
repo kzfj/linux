@@ -63,14 +63,14 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "rofi","-show","drun", NULL };
-static const char *termcmd[]  = { "st", NULL };
-static const char *chrome[]  = { "google-chrome-stable", NULL };
-static const char *ranger[]  = { "ranger", NULL };
-static const char *trayer[] = { "/home/razer/scripts/trayer.sh", NULL };
-static const char *upvol[]   = { "/home/razer/scripts/vol-up.sh",  NULL };
-static const char *downvol[] = { "/home/razer/scripts/vol-down.sh",  NULL };
-static const char *mutevol[] = { "/home/razer/scripts/vol-toggle.sh",  NULL };
+static const char *dmenucmd[]      = { "rofi","-show","drun", NULL };
+static const char *termcmd[]       = { "st", NULL };
+static const char *chrome[]        = { "google-chrome-stable", NULL };
+static const char *ranger[]        = { "/home/razer/scripts/ranger.sh", NULL };
+static const char *trayer[]        = { "/home/razer/scripts/trayer.sh", NULL };
+static const char *upvol[]         = { "/home/razer/scripts/vol-up.sh",  NULL };
+static const char *downvol[]       = { "/home/razer/scripts/vol-down.sh",  NULL };
+static const char *mutevol[]       = { "/home/razer/scripts/vol-toggle.sh",  NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "80x24", NULL };
 static Key keys[] = {
