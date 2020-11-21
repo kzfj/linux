@@ -107,7 +107,8 @@ source $ZSH/oh-my-zsh.sh
 
 #终端让vim显示颜色
 export TERM=xterm-color
-
+#ranger修改配置文件的环境变量
+export RANGER_LOAD_DEFAULT_RC=FALSE
 
 #终端快捷键
 alias ra=ranger
