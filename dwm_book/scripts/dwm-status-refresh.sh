@@ -53,8 +53,8 @@ print_mem(){
 }
 
 print_temp(){
-	test -f /sys/class/thermal/thermal_zone1/temp || return 0
-	echo $(head -c 2 /sys/class/thermal/thermal_zone1/temp)C
+	test -f /sys/class/thermal/thermal_zone2/temp || return 0
+	echo $(head -c 2 /sys/class/thermal/thermal_zone2/temp)C
 }
 
 #!/bin/bash
@@ -156,7 +156,7 @@ get_bytes
 vel_recv=$(get_velocity $received_bytes $old_received_bytes $now)
 vel_trans=$(get_velocity $transmitted_bytes $old_transmitted_bytes $now)
 
-xsetroot -name "  $(print_temp) 💿 $(print_mem)M ⬇️ $vel_recv ⬆️ $vel_trans $(dwm_alsa) [ $(print_bat) ]$(show_record) $(print_date)                        "
+xsetroot -name "  $(print_temp) 💿 $(print_mem)M ⬇️ $vel_recv ⬆️ $vel_trans $(dwm_alsa) [ $(print_bat) ]$(show_record) $(print_date)   "
 
 # Update old values to perform new calculations
 old_received_bytes=$received_bytes

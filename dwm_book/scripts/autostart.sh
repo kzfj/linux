@@ -7,7 +7,7 @@
 #picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
 picom -b
 nitrogen --restore
-nm-applet &
+#nm-applet &
 xfce4-power-manager &
 #kdeconnect-indicator &
 fcitx &
