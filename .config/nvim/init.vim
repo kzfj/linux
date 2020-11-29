@@ -60,7 +60,7 @@ vnoremap Y "+y
 
 
 """"""插件""""""
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 "airline"
 Plug 'vim-airline/vim-airline'
